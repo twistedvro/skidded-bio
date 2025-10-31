@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "Click here to see the motion baby";
+  const startMessage = "Click me!";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
@@ -117,9 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function initializeVisitorCounter() {
-    let totalVisitors = localStorage.getItem('totalVisitorCount');
     if (!totalVisitors) {
-      totalVisitors = 921234;
+      totalVisitors = 6741;
       localStorage.setItem('totalVisitorCount', totalVisitors);
     } else {
       totalVisitors = parseInt(totalVisitors);
@@ -136,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  initializeVisitorCounter();
+
 
 
   startScreen.addEventListener('click', () => {
@@ -201,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  const name = "JAQLIV";
+  const name = "twisted";
   let nameText = '';
   let nameIndex = 0;
   let isNameDeleting = false;
@@ -236,8 +235,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-    "Fu*k Guns.lol & Fakecrime.bio got banned too often, so I created my own.",
-    "\"Hello, World!\""
+    "im a idiot",
+    "dont trust me to model",
+    "learning haxe and c#",
+    "please speed i need this",
+    "iced up in this bih",
+    "irida got canceled what now",
+    "bio template made by JAQLIV"
   ];
   let bioText = '';
   let bioIndex = 0;
@@ -597,9 +601,9 @@ document.addEventListener('DOMContentLoaded', () => {
             { x: 100, opacity: 0 },
             { x: 0, opacity: 1, duration: 0.5, ease: 'power2.out' }
           );
-          gsap.to(pythonBar, { width: '87%', duration: 2, ease: 'power2.out' });
-          gsap.to(cppBar, { width: '75%', duration: 2, ease: 'power2.out' });
-          gsap.to(csharpBar, { width: '80%', duration: 2, ease: 'power2.out' });
+          gsap.to(pythonBar, { width: '1%', duration: 2, ease: 'power2.out' });
+          gsap.to(cppBar, { width: '0%', duration: 2, ease: 'power2.out' });
+          gsap.to(csharpBar, { width: '20%', duration: 2, ease: 'power2.out' });
         }
       });
       resultsHint.classList.remove('hidden');
